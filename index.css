@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: navy; 
+    color: white;
+    display: flex;      
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header .logo img {
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  header .titulo h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header .titulo p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  nav {
+    background-color: red;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+  }
+  
+  h2 {
+    color: navy;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  
